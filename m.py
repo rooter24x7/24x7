@@ -14,7 +14,7 @@ bot = Bot(API_TOKEN)
 
 def start_bot():
     """Start the bot script as a subprocess."""
-    return subprocess.Popen(['python', 'delta.py'])
+    return subprocess.Popen(['python', 'rooter.py'])
 
 async def notify_admin(message):
     """Send a notification message to the admin via Telegram."""
